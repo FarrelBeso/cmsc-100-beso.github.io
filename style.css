@@ -12,6 +12,14 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+    padding: 24px;
+}
+
+.title {
+    font-size: x-large;
+}
+
 .header-link {
     color: rgb(240, 240, 240);
 }
@@ -25,11 +33,18 @@ header {
 
 .image-slides-content {
     border: black solid 1px;
+    border-radius: 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .image {
-    width: 280px;
-    height: 180px;
+    width: 25vw;
+    height: auto;
 }
 
 main {
